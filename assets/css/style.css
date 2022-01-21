@@ -1,0 +1,77 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  background-image: url(../img/lima.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: red;
+  text-align: center;
+  font-size: 60px;
+}
+
+.title span {
+  color: white;
+}
+
+.content {
+  height: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content p {
+  font-size: 40px;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.466);
+  margin: 50px;
+  border-radius: 50px;
+  color: white;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  background-color: #4338da;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.content a:hover {
+  background-color: red;
+}
+
+/* Album */
+.album {
+  background-color: #f8cf84;
+  height: 100vh;
+}
+
+table {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+td {
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  border: 2px solid;
+}
